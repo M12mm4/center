@@ -4,6 +4,7 @@
 image:
   file: .gitpod.dockerfile
 tasks:
+  - init: pg_start
   - command: python main.py
 
 
